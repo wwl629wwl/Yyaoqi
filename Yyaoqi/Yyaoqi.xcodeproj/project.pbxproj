@@ -3,10 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04073495251F381A003E3C3E /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04073494251F381A003E3C3E /* Global.swift */; };
+		040734B5251F49FA003E3C3E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040734B4251F49FA003E3C3E /* UIColorExtension.swift */; };
+		040734BD251F4A0D003E3C3E /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040734BC251F4A0D003E3C3E /* ParallaxHeaderMode.swift */; };
+		040734C2251F4A1D003E3C3E /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040734C1251F4A1D003E3C3E /* UIScrollView+ParallaxHeader.swift */; };
+		040734C7251F4A8C003E3C3E /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040734C6251F4A8C003E3C3E /* ParallaxHeader.swift */; };
+		040734CC251F4AFC003E3C3E /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040734CB251F4AFC003E3C3E /* BaseController.swift */; };
+		040734D4251F4B0E003E3C3E /* NaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040734D3251F4B0E003E3C3E /* NaviController.swift */; };
+		040734D9251F4B1B003E3C3E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040734D8251F4B1B003E3C3E /* TabBarController.swift */; };
+		040734DE251F4B3A003E3C3E /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040734DD251F4B3A003E3C3E /* BaseTableViewCell.swift */; };
+		040734E3251F4B4D003E3C3E /* MineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040734E2251F4B4D003E3C3E /* MineHeaderView.swift */; };
+		040734E8251F4B5D003E3C3E /* MineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040734E7251F4B5D003E3C3E /* MineController.swift */; };
 		0431189C251F36D00077AE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431189B251F36D00077AE9B /* AppDelegate.swift */; };
 		0431189E251F36D00077AE9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431189D251F36D00077AE9B /* SceneDelegate.swift */; };
 		043118A0251F36D00077AE9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431189F251F36D00077AE9B /* ViewController.swift */; };
@@ -15,6 +26,9 @@
 		043118A8251F36D40077AE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043118A6251F36D40077AE9B /* LaunchScreen.storyboard */; };
 		043118B3251F36D40077AE9B /* YyaoqiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043118B2251F36D40077AE9B /* YyaoqiTests.swift */; };
 		043118BE251F36D40077AE9B /* YyaoqiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043118BD251F36D40077AE9B /* YyaoqiUITests.swift */; };
+		8668B5F34425269605223BE4 /* Pods_YyaoqiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463A1570E3DBC28C5FEAD8B1 /* Pods_YyaoqiTests.framework */; };
+		9E3BCFEDC96A0070214E7F26 /* Pods_Yyaoqi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E17CBE04B34E626351B669 /* Pods_Yyaoqi.framework */; };
+		BA081CAA7529395BF68D0968 /* Pods_Yyaoqi_YyaoqiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9094CC3363E2EEDA22C5AC8 /* Pods_Yyaoqi_YyaoqiUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04073494251F381A003E3C3E /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		040734B4251F49FA003E3C3E /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		040734BC251F4A0D003E3C3E /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderMode.swift; sourceTree = "<group>"; };
+		040734C1251F4A1D003E3C3E /* UIScrollView+ParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ParallaxHeader.swift"; sourceTree = "<group>"; };
+		040734C6251F4A8C003E3C3E /* ParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
+		040734CB251F4AFC003E3C3E /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		040734D3251F4B0E003E3C3E /* NaviController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviController.swift; sourceTree = "<group>"; };
+		040734D8251F4B1B003E3C3E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		040734DD251F4B3A003E3C3E /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		040734E2251F4B4D003E3C3E /* MineHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineHeaderView.swift; sourceTree = "<group>"; };
+		040734E7251F4B5D003E3C3E /* MineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineController.swift; sourceTree = "<group>"; };
 		04311898251F36D00077AE9B /* Yyaoqi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yyaoqi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0431189B251F36D00077AE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0431189D251F36D00077AE9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +74,15 @@
 		043118B9251F36D40077AE9B /* YyaoqiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YyaoqiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043118BD251F36D40077AE9B /* YyaoqiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YyaoqiUITests.swift; sourceTree = "<group>"; };
 		043118BF251F36D40077AE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		463A1570E3DBC28C5FEAD8B1 /* Pods_YyaoqiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YyaoqiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		743C233224A27E255AC7FB6D /* Pods-Yyaoqi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yyaoqi.release.xcconfig"; path = "Target Support Files/Pods-Yyaoqi/Pods-Yyaoqi.release.xcconfig"; sourceTree = "<group>"; };
+		83E17CBE04B34E626351B669 /* Pods_Yyaoqi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yyaoqi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B59D13794AF5387E00BE302 /* Pods-Yyaoqi-YyaoqiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yyaoqi-YyaoqiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Yyaoqi-YyaoqiUITests/Pods-Yyaoqi-YyaoqiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B76E6DECE084F99F6E8F347 /* Pods-YyaoqiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YyaoqiTests.debug.xcconfig"; path = "Target Support Files/Pods-YyaoqiTests/Pods-YyaoqiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9094CC3363E2EEDA22C5AC8 /* Pods_Yyaoqi_YyaoqiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yyaoqi_YyaoqiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B997060F75FFF2810DCC8C35 /* Pods-Yyaoqi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yyaoqi.debug.xcconfig"; path = "Target Support Files/Pods-Yyaoqi/Pods-Yyaoqi.debug.xcconfig"; sourceTree = "<group>"; };
+		DC92892E5FD6A51D499DDBB3 /* Pods-Yyaoqi-YyaoqiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yyaoqi-YyaoqiUITests.release.xcconfig"; path = "Target Support Files/Pods-Yyaoqi-YyaoqiUITests/Pods-Yyaoqi-YyaoqiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F2F5F9EA3B2244679C55D0C0 /* Pods-YyaoqiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YyaoqiTests.release.xcconfig"; path = "Target Support Files/Pods-YyaoqiTests/Pods-YyaoqiTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3BCFEDC96A0070214E7F26 /* Pods_Yyaoqi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8668B5F34425269605223BE4 /* Pods_YyaoqiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +106,230 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA081CAA7529395BF68D0968 /* Pods_Yyaoqi_YyaoqiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0407347C251F3806003E3C3E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0431189B251F36D00077AE9B /* AppDelegate.swift */,
+				0431189D251F36D00077AE9B /* SceneDelegate.swift */,
+				04073494251F381A003E3C3E /* Global.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0407347D251F3806003E3C3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0407347E251F3806003E3C3E /* Controller */,
+				04073491251F3806003E3C3E /* View */,
+				04073490251F3806003E3C3E /* Model */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0407347E251F3806003E3C3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04073487251F3806003E3C3E /* Base(父控制器) */,
+				04073485251F3806003E3C3E /* Book(书架) */,
+				04073486251F3806003E3C3E /* Cate(分类) */,
+				04073484251F3806003E3C3E /* Comic(分类) */,
+				0407347F251F3806003E3C3E /* Home(首页) */,
+				04073480251F3806003E3C3E /* Mine(我的) */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0407347F251F3806003E3C3E /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		04073480251F3806003E3C3E /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				04073481251F3806003E3C3E /* Controller */,
+				04073482251F3806003E3C3E /* Model */,
+				04073483251F3806003E3C3E /* View */,
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		04073481251F3806003E3C3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				040734E7251F4B5D003E3C3E /* MineController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04073482251F3806003E3C3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04073483251F3806003E3C3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				040734E2251F4B4D003E3C3E /* MineHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04073484251F3806003E3C3E /* Comic(分类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Comic(分类)";
+			sourceTree = "<group>";
+		};
+		04073485251F3806003E3C3E /* Book(书架) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Book(书架)";
+			sourceTree = "<group>";
+		};
+		04073486251F3806003E3C3E /* Cate(分类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Cate(分类)";
+			sourceTree = "<group>";
+		};
+		04073487251F3806003E3C3E /* Base(父控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				04073488251F3806003E3C3E /* Controller */,
+				0407348E251F3806003E3C3E /* View */,
+			);
+			path = "Base(父控制器)";
+			sourceTree = "<group>";
+		};
+		04073488251F3806003E3C3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0407348D251F3806003E3C3E /* 标签栏 */,
+				0407348A251F3806003E3C3E /* 导航栏 */,
+				04073489251F3806003E3C3E /* 分类导航控制器 */,
+				0407348B251F3806003E3C3E /* 基类控制器 */,
+				0407348C251F3806003E3C3E /* 网页控制器 */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04073489251F3806003E3C3E /* 分类导航控制器 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "分类导航控制器";
+			sourceTree = "<group>";
+		};
+		0407348A251F3806003E3C3E /* 导航栏 */ = {
+			isa = PBXGroup;
+			children = (
+				040734D3251F4B0E003E3C3E /* NaviController.swift */,
+			);
+			path = "导航栏";
+			sourceTree = "<group>";
+		};
+		0407348B251F3806003E3C3E /* 基类控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				040734CB251F4AFC003E3C3E /* BaseController.swift */,
+			);
+			path = "基类控制器";
+			sourceTree = "<group>";
+		};
+		0407348C251F3806003E3C3E /* 网页控制器 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "网页控制器";
+			sourceTree = "<group>";
+		};
+		0407348D251F3806003E3C3E /* 标签栏 */ = {
+			isa = PBXGroup;
+			children = (
+				040734D8251F4B1B003E3C3E /* TabBarController.swift */,
+			);
+			path = "标签栏";
+			sourceTree = "<group>";
+		};
+		0407348E251F3806003E3C3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0407348F251F3806003E3C3E /* 表视图基类 */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0407348F251F3806003E3C3E /* 表视图基类 */ = {
+			isa = PBXGroup;
+			children = (
+				040734DD251F4B3A003E3C3E /* BaseTableViewCell.swift */,
+			);
+			path = "表视图基类";
+			sourceTree = "<group>";
+		};
+		04073490251F3806003E3C3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04073491251F3806003E3C3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04073492251F3807003E3C3E /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		04073493251F3807003E3C3E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				040734B3251F49EF003E3C3E /* Extension */,
+				040734B2251F49EF003E3C3E /* ParallaxHeader */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		040734B2251F49EF003E3C3E /* ParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				040734BC251F4A0D003E3C3E /* ParallaxHeaderMode.swift */,
+				040734C1251F4A1D003E3C3E /* UIScrollView+ParallaxHeader.swift */,
+				040734C6251F4A8C003E3C3E /* ParallaxHeader.swift */,
+			);
+			path = ParallaxHeader;
+			sourceTree = "<group>";
+		};
+		040734B3251F49EF003E3C3E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				040734B4251F49FA003E3C3E /* UIColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		0431188F251F36D00077AE9B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +337,8 @@
 				043118B1251F36D40077AE9B /* YyaoqiTests */,
 				043118BC251F36D40077AE9B /* YyaoqiUITests */,
 				04311899251F36D00077AE9B /* Products */,
+				D560E747FED039A3E69EC590 /* Pods */,
+				9F8CC261501851D8EA8C14CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +355,10 @@
 		0431189A251F36D00077AE9B /* Yyaoqi */ = {
 			isa = PBXGroup;
 			children = (
-				0431189B251F36D00077AE9B /* AppDelegate.swift */,
-				0431189D251F36D00077AE9B /* SceneDelegate.swift */,
+				04073492251F3807003E3C3E /* API */,
+				04073493251F3807003E3C3E /* Common */,
+				0407347D251F3806003E3C3E /* Controller */,
+				0407347C251F3806003E3C3E /* Other */,
 				0431189F251F36D00077AE9B /* ViewController.swift */,
 				043118A1251F36D00077AE9B /* Main.storyboard */,
 				043118A4251F36D40077AE9B /* Assets.xcassets */,
@@ -128,6 +386,29 @@
 			path = YyaoqiUITests;
 			sourceTree = "<group>";
 		};
+		9F8CC261501851D8EA8C14CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83E17CBE04B34E626351B669 /* Pods_Yyaoqi.framework */,
+				B9094CC3363E2EEDA22C5AC8 /* Pods_Yyaoqi_YyaoqiUITests.framework */,
+				463A1570E3DBC28C5FEAD8B1 /* Pods_YyaoqiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D560E747FED039A3E69EC590 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B997060F75FFF2810DCC8C35 /* Pods-Yyaoqi.debug.xcconfig */,
+				743C233224A27E255AC7FB6D /* Pods-Yyaoqi.release.xcconfig */,
+				9B59D13794AF5387E00BE302 /* Pods-Yyaoqi-YyaoqiUITests.debug.xcconfig */,
+				DC92892E5FD6A51D499DDBB3 /* Pods-Yyaoqi-YyaoqiUITests.release.xcconfig */,
+				9B76E6DECE084F99F6E8F347 /* Pods-YyaoqiTests.debug.xcconfig */,
+				F2F5F9EA3B2244679C55D0C0 /* Pods-YyaoqiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +416,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 043118C2251F36D40077AE9B /* Build configuration list for PBXNativeTarget "Yyaoqi" */;
 			buildPhases = (
+				02A75E64DC7E1B271E9D66AF /* [CP] Check Pods Manifest.lock */,
 				04311894251F36D00077AE9B /* Sources */,
 				04311895251F36D00077AE9B /* Frameworks */,
 				04311896251F36D00077AE9B /* Resources */,
+				308B80BC1CCEB4B29E8FDA05 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +435,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 043118C5251F36D40077AE9B /* Build configuration list for PBXNativeTarget "YyaoqiTests" */;
 			buildPhases = (
+				6BA27FD4F054D0931419FF50 /* [CP] Check Pods Manifest.lock */,
 				043118AA251F36D40077AE9B /* Sources */,
 				043118AB251F36D40077AE9B /* Frameworks */,
 				043118AC251F36D40077AE9B /* Resources */,
@@ -170,9 +454,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 043118C8251F36D40077AE9B /* Build configuration list for PBXNativeTarget "YyaoqiUITests" */;
 			buildPhases = (
+				B35FBC8801DDD1E3CDCB8121 /* [CP] Check Pods Manifest.lock */,
 				043118B5251F36D40077AE9B /* Sources */,
 				043118B6251F36D40077AE9B /* Frameworks */,
 				043118B7251F36D40077AE9B /* Resources */,
+				CEF5F0CF4E68FAF82AD01A9D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +539,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02A75E64DC7E1B271E9D66AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yyaoqi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		308B80BC1CCEB4B29E8FDA05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yyaoqi/Pods-Yyaoqi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yyaoqi/Pods-Yyaoqi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yyaoqi/Pods-Yyaoqi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BA27FD4F054D0931419FF50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YyaoqiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B35FBC8801DDD1E3CDCB8121 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yyaoqi-YyaoqiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEF5F0CF4E68FAF82AD01A9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yyaoqi-YyaoqiUITests/Pods-Yyaoqi-YyaoqiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yyaoqi-YyaoqiUITests/Pods-Yyaoqi-YyaoqiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yyaoqi-YyaoqiUITests/Pods-Yyaoqi-YyaoqiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04311894251F36D00077AE9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04073495251F381A003E3C3E /* Global.swift in Sources */,
+				040734CC251F4AFC003E3C3E /* BaseController.swift in Sources */,
+				040734E3251F4B4D003E3C3E /* MineHeaderView.swift in Sources */,
+				040734D9251F4B1B003E3C3E /* TabBarController.swift in Sources */,
 				043118A0251F36D00077AE9B /* ViewController.swift in Sources */,
+				040734DE251F4B3A003E3C3E /* BaseTableViewCell.swift in Sources */,
+				040734BD251F4A0D003E3C3E /* ParallaxHeaderMode.swift in Sources */,
+				040734B5251F49FA003E3C3E /* UIColorExtension.swift in Sources */,
 				0431189C251F36D00077AE9B /* AppDelegate.swift in Sources */,
+				040734C7251F4A8C003E3C3E /* ParallaxHeader.swift in Sources */,
 				0431189E251F36D00077AE9B /* SceneDelegate.swift in Sources */,
+				040734C2251F4A1D003E3C3E /* UIScrollView+ParallaxHeader.swift in Sources */,
+				040734E8251F4B5D003E3C3E /* MineController.swift in Sources */,
+				040734D4251F4B0E003E3C3E /* NaviController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +833,7 @@
 		};
 		043118C3251F36D40077AE9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B997060F75FFF2810DCC8C35 /* Pods-Yyaoqi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +852,7 @@
 		};
 		043118C4251F36D40077AE9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 743C233224A27E255AC7FB6D /* Pods-Yyaoqi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +871,7 @@
 		};
 		043118C6251F36D40077AE9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B76E6DECE084F99F6E8F347 /* Pods-YyaoqiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +893,7 @@
 		};
 		043118C7251F36D40077AE9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2F5F9EA3B2244679C55D0C0 /* Pods-YyaoqiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +915,7 @@
 		};
 		043118C9251F36D40077AE9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B59D13794AF5387E00BE302 /* Pods-Yyaoqi-YyaoqiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +935,7 @@
 		};
 		043118CA251F36D40077AE9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC92892E5FD6A51D499DDBB3 /* Pods-Yyaoqi-YyaoqiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
