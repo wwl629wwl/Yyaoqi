@@ -26,6 +26,10 @@
 		043118A8251F36D40077AE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043118A6251F36D40077AE9B /* LaunchScreen.storyboard */; };
 		043118B3251F36D40077AE9B /* YyaoqiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043118B2251F36D40077AE9B /* YyaoqiTests.swift */; };
 		043118BE251F36D40077AE9B /* YyaoqiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043118BD251F36D40077AE9B /* YyaoqiUITests.swift */; };
+		045E483A251F4DB80024C97E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E4839251F4DB80024C97E /* HomeController.swift */; };
+		045E483F251F4DE80024C97E /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E483E251F4DE80024C97E /* PageController.swift */; };
+		0465A56F25205E330065F014 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465A56E25205E330065F014 /* API.swift */; };
+		0465A57425206B090065F014 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465A57325206B090065F014 /* Model.swift */; };
 		8668B5F34425269605223BE4 /* Pods_YyaoqiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463A1570E3DBC28C5FEAD8B1 /* Pods_YyaoqiTests.framework */; };
 		9E3BCFEDC96A0070214E7F26 /* Pods_Yyaoqi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E17CBE04B34E626351B669 /* Pods_Yyaoqi.framework */; };
 		BA081CAA7529395BF68D0968 /* Pods_Yyaoqi_YyaoqiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9094CC3363E2EEDA22C5AC8 /* Pods_Yyaoqi_YyaoqiUITests.framework */; };
@@ -74,6 +78,10 @@
 		043118B9251F36D40077AE9B /* YyaoqiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YyaoqiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043118BD251F36D40077AE9B /* YyaoqiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YyaoqiUITests.swift; sourceTree = "<group>"; };
 		043118BF251F36D40077AE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045E4839251F4DB80024C97E /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		045E483E251F4DE80024C97E /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		0465A56E25205E330065F014 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		0465A57325206B090065F014 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		463A1570E3DBC28C5FEAD8B1 /* Pods_YyaoqiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YyaoqiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		743C233224A27E255AC7FB6D /* Pods-Yyaoqi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yyaoqi.release.xcconfig"; path = "Target Support Files/Pods-Yyaoqi/Pods-Yyaoqi.release.xcconfig"; sourceTree = "<group>"; };
 		83E17CBE04B34E626351B669 /* Pods_Yyaoqi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yyaoqi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +157,9 @@
 		0407347F251F3806003E3C3E /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
+				040734EF251F4C61003E3C3E /* Controller */,
+				040734F1251F4C61003E3C3E /* Model */,
+				040734F0251F4C61003E3C3E /* View */,
 			);
 			path = "Home(首页)";
 			sourceTree = "<group>";
@@ -231,6 +242,7 @@
 		04073489251F3806003E3C3E /* 分类导航控制器 */ = {
 			isa = PBXGroup;
 			children = (
+				045E483E251F4DE80024C97E /* PageController.swift */,
 			);
 			path = "分类导航控制器";
 			sourceTree = "<group>";
@@ -285,6 +297,7 @@
 		04073490251F3806003E3C3E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0465A57325206B090065F014 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -299,6 +312,7 @@
 		04073492251F3807003E3C3E /* API */ = {
 			isa = PBXGroup;
 			children = (
+				0465A56E25205E330065F014 /* API.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -328,6 +342,100 @@
 				040734B4251F49FA003E3C3E /* UIColorExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		040734EF251F4C61003E3C3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				040734F2251F4CAB003E3C3E /* 订阅 */,
+				040734F4251F4CAB003E3C3E /* 排行 */,
+				040734F5251F4CAB003E3C3E /* 搜索 */,
+				040734F6251F4CAB003E3C3E /* 推荐 */,
+				040734F3251F4CAB003E3C3E /* VIP */,
+				045E4839251F4DB80024C97E /* HomeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040734F0251F4C61003E3C3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				040734FA251F4CD4003E3C3E /* 订阅 */,
+				040734F7251F4CD4003E3C3E /* 排行 */,
+				040734F9251F4CD4003E3C3E /* 搜索 */,
+				040734F8251F4CD4003E3C3E /* 推荐 */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040734F1251F4C61003E3C3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040734F2251F4CAB003E3C3E /* 订阅 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "订阅";
+			sourceTree = "<group>";
+		};
+		040734F3251F4CAB003E3C3E /* VIP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIP;
+			sourceTree = "<group>";
+		};
+		040734F4251F4CAB003E3C3E /* 排行 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "排行";
+			sourceTree = "<group>";
+		};
+		040734F5251F4CAB003E3C3E /* 搜索 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "搜索";
+			sourceTree = "<group>";
+		};
+		040734F6251F4CAB003E3C3E /* 推荐 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "推荐";
+			sourceTree = "<group>";
+		};
+		040734F7251F4CD4003E3C3E /* 排行 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "排行";
+			sourceTree = "<group>";
+		};
+		040734F8251F4CD4003E3C3E /* 推荐 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "推荐";
+			sourceTree = "<group>";
+		};
+		040734F9251F4CD4003E3C3E /* 搜索 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "搜索";
+			sourceTree = "<group>";
+		};
+		040734FA251F4CD4003E3C3E /* 订阅 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "订阅";
 			sourceTree = "<group>";
 		};
 		0431188F251F36D00077AE9B = {
@@ -647,6 +755,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045E483F251F4DE80024C97E /* PageController.swift in Sources */,
 				04073495251F381A003E3C3E /* Global.swift in Sources */,
 				040734CC251F4AFC003E3C3E /* BaseController.swift in Sources */,
 				040734E3251F4B4D003E3C3E /* MineHeaderView.swift in Sources */,
@@ -655,12 +764,15 @@
 				040734DE251F4B3A003E3C3E /* BaseTableViewCell.swift in Sources */,
 				040734BD251F4A0D003E3C3E /* ParallaxHeaderMode.swift in Sources */,
 				040734B5251F49FA003E3C3E /* UIColorExtension.swift in Sources */,
+				0465A57425206B090065F014 /* Model.swift in Sources */,
 				0431189C251F36D00077AE9B /* AppDelegate.swift in Sources */,
 				040734C7251F4A8C003E3C3E /* ParallaxHeader.swift in Sources */,
 				0431189E251F36D00077AE9B /* SceneDelegate.swift in Sources */,
 				040734C2251F4A1D003E3C3E /* UIScrollView+ParallaxHeader.swift in Sources */,
 				040734E8251F4B5D003E3C3E /* MineController.swift in Sources */,
 				040734D4251F4B0E003E3C3E /* NaviController.swift in Sources */,
+				0465A56F25205E330065F014 /* API.swift in Sources */,
+				045E483A251F4DB80024C97E /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
