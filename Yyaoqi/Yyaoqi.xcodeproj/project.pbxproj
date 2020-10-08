@@ -18,6 +18,11 @@
 		040734DE251F4B3A003E3C3E /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040734DD251F4B3A003E3C3E /* BaseTableViewCell.swift */; };
 		040734E3251F4B4D003E3C3E /* MineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040734E2251F4B4D003E3C3E /* MineHeaderView.swift */; };
 		040734E8251F4B5D003E3C3E /* MineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040734E7251F4B5D003E3C3E /* MineController.swift */; };
+		04159ED12522043400C0E6E4 /* BaseTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04159ED02522043400C0E6E4 /* BaseTableViewHeaderFooterView.swift */; };
+		04159EDC2522049600C0E6E4 /* SearchFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04159EDB2522049600C0E6E4 /* SearchFooterView.swift */; };
+		04159EE225221F7000C0E6E4 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04159EE125221F7000C0E6E4 /* BaseCollectionViewCell.swift */; };
+		04159EEB2522231400C0E6E4 /* UCollectionViewAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04159EEA2522231400C0E6E4 /* UCollectionViewAlignedLayout.swift */; };
+		04159EF32522232100C0E6E4 /* UCollectionViewSectionBackgroundLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04159EF22522232100C0E6E4 /* UCollectionViewSectionBackgroundLayout.swift */; };
 		0431189C251F36D00077AE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431189B251F36D00077AE9B /* AppDelegate.swift */; };
 		0431189E251F36D00077AE9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431189D251F36D00077AE9B /* SceneDelegate.swift */; };
 		043118A0251F36D00077AE9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431189F251F36D00077AE9B /* ViewController.swift */; };
@@ -28,11 +33,13 @@
 		043118BE251F36D40077AE9B /* YyaoqiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043118BD251F36D40077AE9B /* YyaoqiUITests.swift */; };
 		043FB3BD25209DBB00A36BFC /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FB3BC25209DBB00A36BFC /* SearchController.swift */; };
 		043FB3C225209DD000A36BFC /* SearchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FB3C125209DD000A36BFC /* SearchHeaderView.swift */; };
+		0441EE4625232E3C0001EDDB /* ComicTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441EE4525232E3C0001EDDB /* ComicTVCell.swift */; };
+		0448EDBD252F1E14008A1071 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448EDBC252F1E14008A1071 /* ArrayExtension.swift */; };
+		0448EDCA252F27DB008A1071 /* ComicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448EDC9252F27DB008A1071 /* ComicController.swift */; };
 		045E483A251F4DB80024C97E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E4839251F4DB80024C97E /* HomeController.swift */; };
 		045E483F251F4DE80024C97E /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E483E251F4DE80024C97E /* PageController.swift */; };
 		0465A56F25205E330065F014 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465A56E25205E330065F014 /* API.swift */; };
 		0465A57425206B090065F014 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465A57325206B090065F014 /* Model.swift */; };
-		04B054322520DB8900E030B8 /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B054312520DB8900E030B8 /* SearchCollectionViewCell.swift */; };
 		8668B5F34425269605223BE4 /* Pods_YyaoqiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463A1570E3DBC28C5FEAD8B1 /* Pods_YyaoqiTests.framework */; };
 		9E3BCFEDC96A0070214E7F26 /* Pods_Yyaoqi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E17CBE04B34E626351B669 /* Pods_Yyaoqi.framework */; };
 		BA081CAA7529395BF68D0968 /* Pods_Yyaoqi_YyaoqiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9094CC3363E2EEDA22C5AC8 /* Pods_Yyaoqi_YyaoqiUITests.framework */; };
@@ -67,6 +74,11 @@
 		040734DD251F4B3A003E3C3E /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
 		040734E2251F4B4D003E3C3E /* MineHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineHeaderView.swift; sourceTree = "<group>"; };
 		040734E7251F4B5D003E3C3E /* MineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineController.swift; sourceTree = "<group>"; };
+		04159ED02522043400C0E6E4 /* BaseTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		04159EDB2522049600C0E6E4 /* SearchFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFooterView.swift; sourceTree = "<group>"; };
+		04159EE125221F7000C0E6E4 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		04159EEA2522231400C0E6E4 /* UCollectionViewAlignedLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCollectionViewAlignedLayout.swift; sourceTree = "<group>"; };
+		04159EF22522232100C0E6E4 /* UCollectionViewSectionBackgroundLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCollectionViewSectionBackgroundLayout.swift; sourceTree = "<group>"; };
 		04311898251F36D00077AE9B /* Yyaoqi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yyaoqi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0431189B251F36D00077AE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0431189D251F36D00077AE9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,11 +95,13 @@
 		043118BF251F36D40077AE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043FB3BC25209DBB00A36BFC /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		043FB3C125209DD000A36BFC /* SearchHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHeaderView.swift; sourceTree = "<group>"; };
+		0441EE4525232E3C0001EDDB /* ComicTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicTVCell.swift; sourceTree = "<group>"; };
+		0448EDBC252F1E14008A1071 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		0448EDC9252F27DB008A1071 /* ComicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicController.swift; sourceTree = "<group>"; };
 		045E4839251F4DB80024C97E /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		045E483E251F4DE80024C97E /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 		0465A56E25205E330065F014 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		0465A57325206B090065F014 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		04B054312520DB8900E030B8 /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
 		463A1570E3DBC28C5FEAD8B1 /* Pods_YyaoqiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YyaoqiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		743C233224A27E255AC7FB6D /* Pods-Yyaoqi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yyaoqi.release.xcconfig"; path = "Target Support Files/Pods-Yyaoqi/Pods-Yyaoqi.release.xcconfig"; sourceTree = "<group>"; };
 		83E17CBE04B34E626351B669 /* Pods_Yyaoqi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yyaoqi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,7 +167,7 @@
 				04073487251F3806003E3C3E /* Base(父控制器) */,
 				04073485251F3806003E3C3E /* Book(书架) */,
 				04073486251F3806003E3C3E /* Cate(分类) */,
-				04073484251F3806003E3C3E /* Comic(分类) */,
+				04073484251F3806003E3C3E /* Comic(漫画详情) */,
 				0407347F251F3806003E3C3E /* Home(首页) */,
 				04073480251F3806003E3C3E /* Mine(我的) */,
 			);
@@ -203,11 +217,13 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		04073484251F3806003E3C3E /* Comic(分类) */ = {
+		04073484251F3806003E3C3E /* Comic(漫画详情) */ = {
 			isa = PBXGroup;
 			children = (
+				0448EDC5252F27CF008A1071 /* Controller */,
+				0448EDC1252F27CF008A1071 /* View */,
 			);
-			path = "Comic(分类)";
+			path = "Comic(漫画详情)";
 			sourceTree = "<group>";
 		};
 		04073485251F3806003E3C3E /* Book(书架) */ = {
@@ -287,6 +303,8 @@
 		0407348E251F3806003E3C3E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04159EE025221F6500C0E6E4 /* 滑动视图基类 */,
+				04159ECF2522042700C0E6E4 /* 头尾部视图 */,
 				0407348F251F3806003E3C3E /* 表视图基类 */,
 			);
 			path = View;
@@ -326,6 +344,7 @@
 		04073493251F3807003E3C3E /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				04159EE9252222BB00C0E6E4 /* CollectionViewLayout */,
 				040734B3251F49EF003E3C3E /* Extension */,
 				040734B2251F49EF003E3C3E /* ParallaxHeader */,
 			);
@@ -346,6 +365,7 @@
 			isa = PBXGroup;
 			children = (
 				040734B4251F49FA003E3C3E /* UIColorExtension.swift */,
+				0448EDBC252F1E14008A1071 /* ArrayExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -413,6 +433,7 @@
 		040734F6251F4CAB003E3C3E /* 推荐 */ = {
 			isa = PBXGroup;
 			children = (
+				0441EE4225232E310001EDDB /* 详细列表 */,
 			);
 			path = "推荐";
 			sourceTree = "<group>";
@@ -435,7 +456,7 @@
 			isa = PBXGroup;
 			children = (
 				043FB3C125209DD000A36BFC /* SearchHeaderView.swift */,
-				04B054312520DB8900E030B8 /* SearchCollectionViewCell.swift */,
+				04159EDB2522049600C0E6E4 /* SearchFooterView.swift */,
 			);
 			path = "搜索";
 			sourceTree = "<group>";
@@ -445,6 +466,31 @@
 			children = (
 			);
 			path = "订阅";
+			sourceTree = "<group>";
+		};
+		04159ECF2522042700C0E6E4 /* 头尾部视图 */ = {
+			isa = PBXGroup;
+			children = (
+				04159ED02522043400C0E6E4 /* BaseTableViewHeaderFooterView.swift */,
+			);
+			path = "头尾部视图";
+			sourceTree = "<group>";
+		};
+		04159EE025221F6500C0E6E4 /* 滑动视图基类 */ = {
+			isa = PBXGroup;
+			children = (
+				04159EE125221F7000C0E6E4 /* BaseCollectionViewCell.swift */,
+			);
+			path = "滑动视图基类";
+			sourceTree = "<group>";
+		};
+		04159EE9252222BB00C0E6E4 /* CollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				04159EEA2522231400C0E6E4 /* UCollectionViewAlignedLayout.swift */,
+				04159EF22522232100C0E6E4 /* UCollectionViewSectionBackgroundLayout.swift */,
+			);
+			path = CollectionViewLayout;
 			sourceTree = "<group>";
 		};
 		0431188F251F36D00077AE9B = {
@@ -501,6 +547,93 @@
 				043118BF251F36D40077AE9B /* Info.plist */,
 			);
 			path = YyaoqiUITests;
+			sourceTree = "<group>";
+		};
+		0441EE4225232E310001EDDB /* 详细列表 */ = {
+			isa = PBXGroup;
+			children = (
+				0441EE4325232E310001EDDB /* Controller */,
+				0441EE4425232E310001EDDB /* View */,
+			);
+			path = "详细列表";
+			sourceTree = "<group>";
+		};
+		0441EE4325232E310001EDDB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0441EE4425232E310001EDDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0441EE4525232E3C0001EDDB /* ComicTVCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0448EDC1252F27CF008A1071 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0448EDC2252F27CF008A1071 /* 详情页 */,
+				0448EDC3252F27CF008A1071 /* 评论页 */,
+				0448EDC4252F27CF008A1071 /* 目录页 */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0448EDC2252F27CF008A1071 /* 详情页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "详情页";
+			sourceTree = "<group>";
+		};
+		0448EDC3252F27CF008A1071 /* 评论页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "评论页";
+			sourceTree = "<group>";
+		};
+		0448EDC4252F27CF008A1071 /* 目录页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "目录页";
+			sourceTree = "<group>";
+		};
+		0448EDC5252F27CF008A1071 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0448EDC6252F27CF008A1071 /* 评论 */,
+				0448EDC7252F27CF008A1071 /* 目录 */,
+				0448EDC8252F27CF008A1071 /* 详情 */,
+				0448EDC9252F27DB008A1071 /* ComicController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0448EDC6252F27CF008A1071 /* 评论 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "评论";
+			sourceTree = "<group>";
+		};
+		0448EDC7252F27CF008A1071 /* 目录 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "目录";
+			sourceTree = "<group>";
+		};
+		0448EDC8252F27CF008A1071 /* 详情 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "详情";
 			sourceTree = "<group>";
 		};
 		9F8CC261501851D8EA8C14CC /* Frameworks */ = {
@@ -769,17 +902,24 @@
 				043FB3BD25209DBB00A36BFC /* SearchController.swift in Sources */,
 				040734CC251F4AFC003E3C3E /* BaseController.swift in Sources */,
 				040734E3251F4B4D003E3C3E /* MineHeaderView.swift in Sources */,
-				04B054322520DB8900E030B8 /* SearchCollectionViewCell.swift in Sources */,
+				04159ED12522043400C0E6E4 /* BaseTableViewHeaderFooterView.swift in Sources */,
+				04159EE225221F7000C0E6E4 /* BaseCollectionViewCell.swift in Sources */,
 				040734D9251F4B1B003E3C3E /* TabBarController.swift in Sources */,
+				04159EDC2522049600C0E6E4 /* SearchFooterView.swift in Sources */,
 				043118A0251F36D00077AE9B /* ViewController.swift in Sources */,
 				043FB3C225209DD000A36BFC /* SearchHeaderView.swift in Sources */,
+				0448EDCA252F27DB008A1071 /* ComicController.swift in Sources */,
 				040734DE251F4B3A003E3C3E /* BaseTableViewCell.swift in Sources */,
 				040734BD251F4A0D003E3C3E /* ParallaxHeaderMode.swift in Sources */,
 				040734B5251F49FA003E3C3E /* UIColorExtension.swift in Sources */,
 				0465A57425206B090065F014 /* Model.swift in Sources */,
+				04159EEB2522231400C0E6E4 /* UCollectionViewAlignedLayout.swift in Sources */,
 				0431189C251F36D00077AE9B /* AppDelegate.swift in Sources */,
+				0441EE4625232E3C0001EDDB /* ComicTVCell.swift in Sources */,
 				040734C7251F4A8C003E3C3E /* ParallaxHeader.swift in Sources */,
 				0431189E251F36D00077AE9B /* SceneDelegate.swift in Sources */,
+				04159EF32522232100C0E6E4 /* UCollectionViewSectionBackgroundLayout.swift in Sources */,
+				0448EDBD252F1E14008A1071 /* ArrayExtension.swift in Sources */,
 				040734C2251F4A1D003E3C3E /* UIScrollView+ParallaxHeader.swift in Sources */,
 				040734E8251F4B5D003E3C3E /* MineController.swift in Sources */,
 				040734D4251F4B0E003E3C3E /* NaviController.swift in Sources */,
