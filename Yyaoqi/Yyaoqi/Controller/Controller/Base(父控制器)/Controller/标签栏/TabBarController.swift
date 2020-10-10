@@ -20,14 +20,15 @@ class TabBarController: UITabBarController {
     /// 布局函数
     func setupLayout() {
         //1.首页
-        let onePageVC = UIViewController()
+        let onePageVC = HomeController(titles: ["推荐","VIP","订阅","排行"], vcs: [UIViewController(),UIViewController(),UIViewController(),UIViewController()], pageStyle: .navgationBarSegment)
         addChildController(onePageVC, title: "首页",
                            image: UIImage(named: "tab_home"),
                            selectdImage: UIImage(named: "tab_home_S"))
         
         //2.分类
         let classVC = UIViewController()
-        addChildController(classVC, title: "分类",
+        addChildController(classVC,
+                           title: "分类",
                            image: UIImage(named: "tab_class"),
                            selectdImage: UIImage(named: "tab_class_S"))
         

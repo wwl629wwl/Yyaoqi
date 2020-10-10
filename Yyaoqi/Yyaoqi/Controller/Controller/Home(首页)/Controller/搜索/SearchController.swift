@@ -272,5 +272,26 @@ extension SearchController: UITableViewDelegate, UITableViewDataSource {
         }
     }
     
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        if tableView == historyTableView {
+            return section == 0 ? 10 : tableView.frame.height - 44
+        } else {
+            return CGFloat.leastNormalMagnitude
+        }
+    }
     
+    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? { // 设置尾部
+        if tableView == historyTableView && section == 1 {
+            let foot = tableView.dequeueReusableHeaderFooterView(SearchFootView.self)
+            foot?.data = hotItems ?? []
+            foot?.didSelectIndexClosure({[weak self] (index, model) in
+                let vc = ComicController(comicid: model.comic_id)
+                self?.navigationController?.pushViewController(vc, animated: true)
+            })
+            return foot
+        } else {
+            return nil
+        }
+    }
 }
+

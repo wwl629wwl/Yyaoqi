@@ -22,6 +22,6 @@ class HomeController: PageController {
     }
     
     @objc func searchButtonClick() {
-        navigationController?.pushViewController(UIViewController(), animated: true)
+        navigationController?.pushViewController(SearchController(), animated: true)
     }
 }
